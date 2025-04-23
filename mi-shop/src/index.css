@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial,
+    "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  list-style: none;
+  text-overflow: ellipsis;
+}
+
+body a {
+  text-decoration: none;
+}
+
