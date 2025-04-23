@@ -9,7 +9,19 @@
   text-overflow: ellipsis;
 }
 
-body a {
-  text-decoration: none;
+html {
+  --edition-width: 1226px;
+  --white: #fff;
+  --dark-gray: #333333;
+  --gray: #424242;
+  --font-color: #b0b0b0;
+  --mi-orange: #ff6a00;
+  --headBar-border: #e0e0e0;
 }
 
+body {
+  min-width: var(--edition-width);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

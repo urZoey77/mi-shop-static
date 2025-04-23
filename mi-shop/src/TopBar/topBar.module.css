@@ -1,11 +1,15 @@
 .topBarWrap {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+.siteNavWrap {
+  width: var(--edition-width);
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: space-between;
   height: 40px;
-  background-color: #333;
-
-
 
 }
 

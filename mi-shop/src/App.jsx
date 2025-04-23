@@ -1,14 +1,15 @@
-import { useState } from "react";
 import "./App.css";
 import TopBar from "./topBar/topBar";
+import Footer from "./Footer/index";
+import Header from "./Header/index";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
+    <div>
       <TopBar />
-    </>
+      <Header />
+      <Footer />
+    </div>
   );
 }
 

@@ -1,0 +1,6 @@
+body {
+  min-width: var(--edition-width);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
