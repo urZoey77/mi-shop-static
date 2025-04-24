@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./index.module.css";
 import "../../public/iconfont/iconfont.css";
-import logo from "../../public/LOGO.png";
+import logo from "../assets/LOGO.PNG";
 
 const ShopNav = () => {
   return (
