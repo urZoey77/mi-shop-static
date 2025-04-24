@@ -56,8 +56,8 @@ const FootBar = () => {
           </dd>
         </dt>
       </dl>
-      <dl className="footBarItem">
-        <dt className="ItemTitle">线下门店</dt>
+      <dl className={styles.footBarItem}>
+        <dt className={styles.ItemTitle}>线下门店</dt>
         <dt className={styles.ItemContent}>
           <dd className={styles.ItemLinks}>
             <a href="javascript:">小米之家</a>

@@ -45,7 +45,7 @@ const ShopBanner = () => {
             耳机 音箱
           </a>
           <span class="iconfont icon-miniRight"></span>
-        </div>{" "}
+        </div>
         <div className={styles.shopList}>
           <a href="" target="_blank" className={styles.listItem}>
             健康 儿童
@@ -57,7 +57,7 @@ const ShopBanner = () => {
             生活 箱包
           </a>
           <span class="iconfont icon-miniRight"></span>
-        </div>{" "}
+        </div>
         <div className={styles.shopList}>
           <a href="" target="_blank" className={styles.listItem}>
             智能 路由器
