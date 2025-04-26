@@ -23,16 +23,20 @@ const ShopNav = () => {
         <div className={styles.shopItem}>社区</div>
       </div>
       <div className={styles.searchForm}>
-        <label>
-          <input
-            className={styles.searchInput}
-            type="text"
-            placeholder="耳机"
-          />
-        </label>
+        <input className={styles.searchInput} type="text" placeholder="耳机" />
         <button id="searchBtn" className={styles.searchBtn}>
           <span className="iconfont icon-sousuo"></span>
         </button>
+        <div className={styles.resultList}>
+          <div className={styles.resultItem}>手机焕新</div>
+          <div className={styles.resultItem}>小米手环9 Pro</div>
+          <div className={styles.resultItem}>Redmi K80</div>
+          <div className={styles.resultItem}>风扇</div>
+          <div className={styles.resultItem}>充电宝</div>
+          <div className={styles.resultItem}>电视</div>
+          <div className={styles.resultItem}>空气净化器</div>
+          <div className={styles.resultItem}>油烟机</div>
+        </div>
       </div>
     </div>
   );
